@@ -42,11 +42,11 @@ The perfect correlation of 1 indicates the presence of perfect multicollinearity
 ### Model 1 - Logistic Regression Classifier
 
 Logistic regression is a classification algorithm, used when the value of the target variable is categorical in nature.
-**************** LOGISTIC REGRESSION CLASSIFIER MODEL RESULTS **************** 
-Accuracy score for testing set:  0.77938
-F1 score for testing set:  0.48889
-Recall score for testing set:  0.79279
-Precision score for testing set:  0.35341
+    LOGISTIC REGRESSION CLASSIFIER MODEL RESULTS 
+        Accuracy score for testing set:  0.77938
+        F1 score for testing set:  0.48889
+        Recall score for testing set:  0.79279
+        Precision score for testing set:  0.35341
 
 According to the logistic regression classifier model, total day charge, ,total day minutes and international plan are the top three important features.
 
@@ -61,11 +61,11 @@ Decision Trees usually mimic human thinking ability while making a decision, so 
 
 The logic behind the decision tree can be easily understood because it shows a tree-like structure.
 
-**************** DECISION TREE CLASSIFIER MODEL RESULTS **************** 
-Accuracy score for testing set:  0.89808
-F1 score for testing set:  0.67925
-Recall score for testing set:  0.81081
-Precision score for testing set:  0.58442
+    DECISION TREE CLASSIFIER MODEL RESULTS  
+        Accuracy score for testing set:  0.89808
+        F1 score for testing set:  0.67925
+        Recall score for testing set:  0.81081
+        Precision score for testing set:  0.58442
 The model exhibits strong accuracy(0.89808) and recall(0.81081), indicating it is effective at identifying positive cases. However, the relatively low precision(0.58442) highlights a challenge with false positives. To enhance the model's performance, particularly in precision, further tuning and optimization may be necessary. Balancing these metrics will be crucial, especially in contexts where the cost of false positives is high.
 
 ### Models Comparison
